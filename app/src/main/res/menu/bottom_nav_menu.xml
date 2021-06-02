@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent">
+    <item
+        android:id="@+id/action_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_add"
+        android:title="New Poll"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_polls"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_poll"
+        android:title="Polls"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_person"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_person"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+</menu>
